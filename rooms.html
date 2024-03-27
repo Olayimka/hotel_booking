@@ -1,0 +1,498 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wosam arena.com</title>
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="styles.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar fixed-top">
+            <div class="logo">
+                <img src=".\images\Frame 110.png" alt="Logo">
+            </div>
+            <div class="menu-icon" id="menu-icon">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html" class="text-decoration-none">Home</a></li>
+                <li><a href="About.html" class="text-decoration-none">About Us</a></li>
+                <li><a href="contact.html" class="text-decoration-none">Contact Us</a></li>
+                <li><a href="rooms.html" class="active font-weight-bold text-primary text-decoration-none">Rooms</a>
+                </li>
+                <li><a href="faqs.html" class="text-decoration-none">FAQs</a></li>
+                <li>
+                    <svg width="21" height="23" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M16.5 15.75H1.5V14.25H2.25V3C2.25 2.80109 2.32902 2.61032 2.46967 2.46967C2.61032 2.32902 2.80109 2.25 3 2.25H13.5C13.6989 2.25 13.8897 2.32902 14.0303 2.46967C14.171 2.61032 14.25 2.80109 14.25 3V6.75H15.75V14.25H16.5V15.75ZM12.75 14.25H14.25V8.25H9.75V14.25H11.25V9.75H12.75V14.25ZM12.75 6.75V3.75H3.75V14.25H8.25V6.75H12.75ZM5.25 8.25H6.75V9.75H5.25V8.25ZM5.25 11.25H6.75V12.75H5.25V11.25ZM5.25 5.25H6.75V6.75H5.25V5.25Z"
+                            fill="black" />
+                    </svg><span class="badge badge-pill badge-dark position-absolute rounded-circle count"
+                        style="background-color:red;" id="cart-count">0</span><a href="bookinglist.html"
+                        class="text-decoration-none" style="margin-left:30px;">Booking List
+                    </a>
+
+
+
+
+
+                </li>
+            </ul>
+        </nav>
+        <div class="card text-bg-dark banner1">
+
+            <div style="color:white;text-align:center;">
+                <h5 class="card-title1">WELCOME TO</h5>
+                <p class="card-text1">WOSAM ARENA</p>
+                <small class="small">Escape to luxury,book with ease</small>
+            </div>
+        </div>
+
+    </header>
+
+
+    <section style="width:100%;background-color:rgba(236, 236, 236, 1);">
+
+        <div>
+            <div style="background-color:rgba(236, 236, 236, 1);text-align:center;">
+                <p style="font-size:24px;color:rgba(97, 97, 97, 1);padding-top:30px;font-weight:medium;">ROOMS</p>
+            </div>
+        </div>
+
+
+
+        <div class="maincon">
+            <div class="row">
+                <!-- Column 1 (Image) -->
+
+                <div class="grow col-lg-4">
+
+                    <div style="width: 100%; position: relative">
+                        <img src="room2 (1).png" class="imgmain" id="displayedImage" />
+                        <div class="d-flex">
+                            <img src="room2 (1).png" class="imgthumbl" onclick="displayImage('room2 (1).png')" />
+                            <img src="room2 (2).png" class="imgthumbc1" onclick="displayImage('room2 (2).png')" />
+                            <img src="room2 (2).png" class="imgthumbc2" onclick="displayImage('room2 (2).png')" />
+                            <img src="room1 (2).png" class="imgthumbr" onclick="displayImage('room1 (2).png')" />
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row col-lg-8">
+                    <div class="col-12 col-md-5 standard col-lg-4">
+                        <p class="stdr">Standard Rooms</p>
+                        <h6>
+                            <svg width="18" height="18" viewBox="0 0 21 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.43924 0.967345C9.79127 0.300116 10.7469 0.300117 11.0989 0.967346L13.6384 5.78069C13.7742 6.038 14.0216 6.21778 14.3083 6.26738L19.6708 7.19523C20.4142 7.32385 20.7095 8.23266 20.1837 8.77365L16.3907 12.6763C16.1879 12.8849 16.0934 13.1758 16.1348 13.4638L16.9095 18.8506C17.0169 19.5973 16.2438 20.159 15.5668 19.8261L10.6831 17.4247C10.422 17.2964 10.1161 17.2964 9.85507 17.4247L4.97131 19.8261C4.29432 20.159 3.52124 19.5973 3.62862 18.8506L4.4033 13.4638C4.44471 13.1758 4.35019 12.8849 4.14743 12.6763L0.354432 8.77365C-0.171356 8.23266 0.123937 7.32385 0.867294 7.19523L6.22982 6.26738C6.51649 6.21778 6.76393 6.038 6.89969 5.78069L9.43924 0.967345Z"
+                                    fill="#FFDE31" />
+                            </svg>
+
+                            <svg width="18" height="18" viewBox="0 0 21 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.43924 0.967345C9.79127 0.300116 10.7469 0.300117 11.0989 0.967346L13.6384 5.78069C13.7742 6.038 14.0216 6.21778 14.3083 6.26738L19.6708 7.19523C20.4142 7.32385 20.7095 8.23266 20.1837 8.77365L16.3907 12.6763C16.1879 12.8849 16.0934 13.1758 16.1348 13.4638L16.9095 18.8506C17.0169 19.5973 16.2438 20.159 15.5668 19.8261L10.6831 17.4247C10.422 17.2964 10.1161 17.2964 9.85507 17.4247L4.97131 19.8261C4.29432 20.159 3.52124 19.5973 3.62862 18.8506L4.4033 13.4638C4.44471 13.1758 4.35019 12.8849 4.14743 12.6763L0.354432 8.77365C-0.171356 8.23266 0.123937 7.32385 0.867294 7.19523L6.22982 6.26738C6.51649 6.21778 6.76393 6.038 6.89969 5.78069L9.43924 0.967345Z"
+                                    fill="#FFDE31" />
+                            </svg>
+                            <svg width="18" height="18" viewBox="0 0 21 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.43924 0.967345C9.79127 0.300116 10.7469 0.300117 11.0989 0.967346L13.6384 5.78069C13.7742 6.038 14.0216 6.21778 14.3083 6.26738L19.6708 7.19523C20.4142 7.32385 20.7095 8.23266 20.1837 8.77365L16.3907 12.6763C16.1879 12.8849 16.0934 13.1758 16.1348 13.4638L16.9095 18.8506C17.0169 19.5973 16.2438 20.159 15.5668 19.8261L10.6831 17.4247C10.422 17.2964 10.1161 17.2964 9.85507 17.4247L4.97131 19.8261C4.29432 20.159 3.52124 19.5973 3.62862 18.8506L4.4033 13.4638C4.44471 13.1758 4.35019 12.8849 4.14743 12.6763L0.354432 8.77365C-0.171356 8.23266 0.123937 7.32385 0.867294 7.19523L6.22982 6.26738C6.51649 6.21778 6.76393 6.038 6.89969 5.78069L9.43924 0.967345Z"
+                                    fill="#FFDE31" />
+                            </svg>
+                            <svg width="18" height="18" viewBox="0 0 21 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.43924 0.967345C9.79127 0.300116 10.7469 0.300117 11.0989 0.967346L13.6384 5.78069C13.7742 6.038 14.0216 6.21778 14.3083 6.26738L19.6708 7.19523C20.4142 7.32385 20.7095 8.23266 20.1837 8.77365L16.3907 12.6763C16.1879 12.8849 16.0934 13.1758 16.1348 13.4638L16.9095 18.8506C17.0169 19.5973 16.2438 20.159 15.5668 19.8261L10.6831 17.4247C10.422 17.2964 10.1161 17.2964 9.85507 17.4247L4.97131 19.8261C4.29432 20.159 3.52124 19.5973 3.62862 18.8506L4.4033 13.4638C4.44471 13.1758 4.35019 12.8849 4.14743 12.6763L0.354432 8.77365C-0.171356 8.23266 0.123937 7.32385 0.867294 7.19523L6.22982 6.26738C6.51649 6.21778 6.76393 6.038 6.89969 5.78069L9.43924 0.967345Z"
+                                    fill="#FFDE31" />
+                            </svg>
+                            <svg width="18" height="18" viewBox="0 0 21 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.43924 0.967345C9.79127 0.300116 10.7469 0.300117 11.0989 0.967346L13.6384 5.78069C13.7742 6.038 14.0216 6.21778 14.3083 6.26738L19.6708 7.19523C20.4142 7.32385 20.7095 8.23266 20.1837 8.77365L16.3907 12.6763C16.1879 12.8849 16.0934 13.1758 16.1348 13.4638L16.9095 18.8506C17.0169 19.5973 16.2438 20.159 15.5668 19.8261L10.6831 17.4247C10.422 17.2964 10.1161 17.2964 9.85507 17.4247L4.97131 19.8261C4.29432 20.159 3.52124 19.5973 3.62862 18.8506L4.4033 13.4638C4.44471 13.1758 4.35019 12.8849 4.14743 12.6763L0.354432 8.77365C-0.171356 8.23266 0.123937 7.32385 0.867294 7.19523L6.22982 6.26738C6.51649 6.21778 6.76393 6.038 6.89969 5.78069L9.43924 0.967345Z"
+                                    fill="#FFDE31" />
+                            </svg>
+                           
+                        </h6>
+                        <span class="reviews"><span style="color:black;">5.0</span> 200+reviews</span>
+                        <p>
+                            <button class="btn btn-primary"
+                                style="border:transparent;background-color:rgba(234, 234, 234, 1);font-weight:bold;color:rgba(1, 41, 78, 1);font-size:14px;margin-right:5px;">2
+                                Adults</button>
+                            <button class="btn btn-primary"
+                                style="border:transparent;background-color:rgba(234, 234, 234, 1);font-weight:bold;color:rgba(1, 41, 78, 1);font-size:14px;">2
+                                Children</button>
+                        </p>
+                        <hr style="width:77%;">
+                        <span style="font-size:14px;">Lorem ipsum dolor sit amet, <br>consectetur adipiscing
+                            eli</span>
+                        <div class="mt-4">
+                            <a class="btn homebtn btn-primary" href="index.html" role="button"
+                                style="font-weight:bold;width:78%;font-size:12px">ADD TO BOOKING</a>
+
+
+
+                        </div>
+                        <div style="margin-top:15px;">
+                            <a href="room-description.html" class="btn homebtn btn-primary"
+                                style="background-color:transparent;color:rgba(37, 132, 220, 1);font-weight:bold;width:78%;font-size:12px;">VIEW
+                                DETAILS</a>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="col-12 col-md-7 col-lg-8 stand">
+
+                        <p class="stdr">Standard Room</p>
+                        <p style="color:rgba(97, 97, 97, 1);font-size:14px;margin-top:7px;">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                            in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div>
+                            <div class="d-flex justify-content-between">
+                                <div class="images">
+                                    <img style="width:28px;" src=".\images\4.png">
+                                    <span style="font-size:13px;">1 BED(S)</span>
+                                </div>
+                                <div class="images">
+                                    <img style="width:28px;" src=".\images\5.png">
+                                    <span style="font-size:13px;">1 BATHROOM(S) </span>
+                                </div>
+                                <div class="images">
+                                    <img style="width:28px;" src=".\images\6.png">
+                                    <span style="font-size:13px;"> WI-FI</span>
+                                </div>
+                            </div>
+                            <p class="amount">N 25,000
+                                per night</p>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="maincon">
+            <div class="row">
+                <!-- Column 1 (Image) -->
+
+                <div class="grow col-lg-4">
+
+                    <div style="width: 100%; position: relative">
+                        <img src="room2 (2).png" class="imgmain" id="displayedImages" />
+                        <div class="d-flex">
+                            <img src="room2 (1).png" class="imgthumbl" onclick="displayImages('room2 (1).png')" />
+                            <img src="room2 (2).png" class="imgthumbc1" onclick="displayImages('room2 (2).png')" />
+                            <img src="room2 (1).png" class="imgthumbc2" onclick="displayImages('room2 (1).png')" />
+                            <img src="room1 (2).png" class="imgthumbr" onclick="displayImages('room1 (2).png')" />
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row col-lg-8">
+                    <div class="col-12 col-md-5 standard col-lg-4">
+                        <p class="stdr">Standard Rooms</p>
+                        <h6>
+                            <svg width="18" height="18" viewBox="0 0 21 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.43924 0.967345C9.79127 0.300116 10.7469 0.300117 11.0989 0.967346L13.6384 5.78069C13.7742 6.038 14.0216 6.21778 14.3083 6.26738L19.6708 7.19523C20.4142 7.32385 20.7095 8.23266 20.1837 8.77365L16.3907 12.6763C16.1879 12.8849 16.0934 13.1758 16.1348 13.4638L16.9095 18.8506C17.0169 19.5973 16.2438 20.159 15.5668 19.8261L10.6831 17.4247C10.422 17.2964 10.1161 17.2964 9.85507 17.4247L4.97131 19.8261C4.29432 20.159 3.52124 19.5973 3.62862 18.8506L4.4033 13.4638C4.44471 13.1758 4.35019 12.8849 4.14743 12.6763L0.354432 8.77365C-0.171356 8.23266 0.123937 7.32385 0.867294 7.19523L6.22982 6.26738C6.51649 6.21778 6.76393 6.038 6.89969 5.78069L9.43924 0.967345Z"
+                                    fill="#FFDE31" />
+                            </svg>
+
+                            <svg width="18" height="18" viewBox="0 0 21 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.43924 0.967345C9.79127 0.300116 10.7469 0.300117 11.0989 0.967346L13.6384 5.78069C13.7742 6.038 14.0216 6.21778 14.3083 6.26738L19.6708 7.19523C20.4142 7.32385 20.7095 8.23266 20.1837 8.77365L16.3907 12.6763C16.1879 12.8849 16.0934 13.1758 16.1348 13.4638L16.9095 18.8506C17.0169 19.5973 16.2438 20.159 15.5668 19.8261L10.6831 17.4247C10.422 17.2964 10.1161 17.2964 9.85507 17.4247L4.97131 19.8261C4.29432 20.159 3.52124 19.5973 3.62862 18.8506L4.4033 13.4638C4.44471 13.1758 4.35019 12.8849 4.14743 12.6763L0.354432 8.77365C-0.171356 8.23266 0.123937 7.32385 0.867294 7.19523L6.22982 6.26738C6.51649 6.21778 6.76393 6.038 6.89969 5.78069L9.43924 0.967345Z"
+                                    fill="#FFDE31" />
+                            </svg>
+                            <svg width="18" height="18" viewBox="0 0 21 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.43924 0.967345C9.79127 0.300116 10.7469 0.300117 11.0989 0.967346L13.6384 5.78069C13.7742 6.038 14.0216 6.21778 14.3083 6.26738L19.6708 7.19523C20.4142 7.32385 20.7095 8.23266 20.1837 8.77365L16.3907 12.6763C16.1879 12.8849 16.0934 13.1758 16.1348 13.4638L16.9095 18.8506C17.0169 19.5973 16.2438 20.159 15.5668 19.8261L10.6831 17.4247C10.422 17.2964 10.1161 17.2964 9.85507 17.4247L4.97131 19.8261C4.29432 20.159 3.52124 19.5973 3.62862 18.8506L4.4033 13.4638C4.44471 13.1758 4.35019 12.8849 4.14743 12.6763L0.354432 8.77365C-0.171356 8.23266 0.123937 7.32385 0.867294 7.19523L6.22982 6.26738C6.51649 6.21778 6.76393 6.038 6.89969 5.78069L9.43924 0.967345Z"
+                                    fill="#FFDE31" />
+                            </svg>
+                            <svg width="18" height="18" viewBox="0 0 21 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.43924 0.967345C9.79127 0.300116 10.7469 0.300117 11.0989 0.967346L13.6384 5.78069C13.7742 6.038 14.0216 6.21778 14.3083 6.26738L19.6708 7.19523C20.4142 7.32385 20.7095 8.23266 20.1837 8.77365L16.3907 12.6763C16.1879 12.8849 16.0934 13.1758 16.1348 13.4638L16.9095 18.8506C17.0169 19.5973 16.2438 20.159 15.5668 19.8261L10.6831 17.4247C10.422 17.2964 10.1161 17.2964 9.85507 17.4247L4.97131 19.8261C4.29432 20.159 3.52124 19.5973 3.62862 18.8506L4.4033 13.4638C4.44471 13.1758 4.35019 12.8849 4.14743 12.6763L0.354432 8.77365C-0.171356 8.23266 0.123937 7.32385 0.867294 7.19523L6.22982 6.26738C6.51649 6.21778 6.76393 6.038 6.89969 5.78069L9.43924 0.967345Z"
+                                    fill="#FFDE31" />
+                            </svg>
+                            <svg width="18" height="18" viewBox="0 0 21 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.43924 0.967345C9.79127 0.300116 10.7469 0.300117 11.0989 0.967346L13.6384 5.78069C13.7742 6.038 14.0216 6.21778 14.3083 6.26738L19.6708 7.19523C20.4142 7.32385 20.7095 8.23266 20.1837 8.77365L16.3907 12.6763C16.1879 12.8849 16.0934 13.1758 16.1348 13.4638L16.9095 18.8506C17.0169 19.5973 16.2438 20.159 15.5668 19.8261L10.6831 17.4247C10.422 17.2964 10.1161 17.2964 9.85507 17.4247L4.97131 19.8261C4.29432 20.159 3.52124 19.5973 3.62862 18.8506L4.4033 13.4638C4.44471 13.1758 4.35019 12.8849 4.14743 12.6763L0.354432 8.77365C-0.171356 8.23266 0.123937 7.32385 0.867294 7.19523L6.22982 6.26738C6.51649 6.21778 6.76393 6.038 6.89969 5.78069L9.43924 0.967345Z"
+                                    fill="#FFDE31" />
+                            </svg>
+                           
+                        </h6>
+                        <span class="reviews"><span style="color:black;">5.0</span> 200+reviews</span>
+                        <p>
+                            <button class="btn btn-primary"
+                                style="border:transparent;background-color:rgba(234, 234, 234, 1);font-weight:bold;color:rgba(1, 41, 78, 1);font-size:14px;margin-right:5px;">2
+                                Adults</button>
+                            <button class="btn btn-primary"
+                                style="border:transparent;background-color:rgba(234, 234, 234, 1);font-weight:bold;color:rgba(1, 41, 78, 1);font-size:14px;">2
+                                Children</button>
+                        </p>
+                        <hr style="width:77%;">
+                        <span style="font-size:14px;">Lorem ipsum dolor sit amet, <br>consectetur adipiscing
+                            eli</span>
+                        <div class="mt-4">
+                            <a class="btn homebtn btn-primary" href="index.html" role="button"
+                                style="font-weight:bold;width:78%;font-size:12px">ADD TO BOOKING</a>
+
+
+
+                        </div>
+                        <div style="margin-top:15px;">
+                            <a href="room-description.html" class="btn homebtn btn-primary"
+                                style="background-color:transparent;color:rgba(37, 132, 220, 1);font-weight:bold;width:78%;font-size:12px;">VIEW
+                                DETAILS</a>
+                        </div>
+                    </div>
+
+
+
+
+
+                    <div class="col-12 col-md-7 col-lg-8 stand">
+
+                        <p class="stdr">Standard Room</p>
+                        <p style="color:rgba(97, 97, 97, 1);font-size:14px;margin-top:7px;">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                            in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div>
+                            <div class="d-flex justify-content-between">
+                                <div class="images">
+                                    <img style="width:28px;" src=".\images\4.png">
+                                    <span style="font-size:13px;">1 BED(S)</span>
+                                </div>
+                                <div class="images">
+                                    <img style="width:28px;" src=".\images\5.png">
+                                    <span style="font-size:13px;">1 BATHROOM(S) </span>
+                                </div>
+                                <div class="images">
+                                    <img style="width:28px;" src=".\images\6.png">
+                                    <span style="font-size:13px;"> WI-FI</span>
+                                </div>
+                            </div>
+                            <p class="amount">N 25,000
+                                per night</p>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="maincon">
+            <div class="row">
+                <!-- Column 1 (Image) -->
+
+                <div class="grow col-lg-4">
+
+                    <div style="width: 100%; position: relative">
+                        <img src="room2 (2).png" class="imgmain" id="displayedImgs" />
+                        <div class="d-flex">
+                            <img src="room2 (1).png" class="imgthumbl" onclick="displayImgs('room2 (1).png')" />
+                            <img src="room2 (1).png" class="imgthumbc1" onclick="displayImgs('room2 (1).png')" />
+                            <img src="room1 (1).png" class="imgthumbc2" onclick="displayImgs('room1 (1).png')" />
+                            <img src="room1 (2).png" class="imgthumbr" onclick="displayImgs('room1 (2).png')" />
+                        </div>
+
+                    </div>
+                </div>
+                <div class=" row col-lg-8">
+                    <div class="col-12 col-md-5 standard col-lg-4">
+                        <p class="stdr">Standard Rooms</p>
+                        <h6>
+                            <svg width="18" height="18" viewBox="0 0 21 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.43924 0.967345C9.79127 0.300116 10.7469 0.300117 11.0989 0.967346L13.6384 5.78069C13.7742 6.038 14.0216 6.21778 14.3083 6.26738L19.6708 7.19523C20.4142 7.32385 20.7095 8.23266 20.1837 8.77365L16.3907 12.6763C16.1879 12.8849 16.0934 13.1758 16.1348 13.4638L16.9095 18.8506C17.0169 19.5973 16.2438 20.159 15.5668 19.8261L10.6831 17.4247C10.422 17.2964 10.1161 17.2964 9.85507 17.4247L4.97131 19.8261C4.29432 20.159 3.52124 19.5973 3.62862 18.8506L4.4033 13.4638C4.44471 13.1758 4.35019 12.8849 4.14743 12.6763L0.354432 8.77365C-0.171356 8.23266 0.123937 7.32385 0.867294 7.19523L6.22982 6.26738C6.51649 6.21778 6.76393 6.038 6.89969 5.78069L9.43924 0.967345Z"
+                                    fill="#FFDE31" />
+                            </svg>
+
+                            <svg width="18" height="18" viewBox="0 0 21 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.43924 0.967345C9.79127 0.300116 10.7469 0.300117 11.0989 0.967346L13.6384 5.78069C13.7742 6.038 14.0216 6.21778 14.3083 6.26738L19.6708 7.19523C20.4142 7.32385 20.7095 8.23266 20.1837 8.77365L16.3907 12.6763C16.1879 12.8849 16.0934 13.1758 16.1348 13.4638L16.9095 18.8506C17.0169 19.5973 16.2438 20.159 15.5668 19.8261L10.6831 17.4247C10.422 17.2964 10.1161 17.2964 9.85507 17.4247L4.97131 19.8261C4.29432 20.159 3.52124 19.5973 3.62862 18.8506L4.4033 13.4638C4.44471 13.1758 4.35019 12.8849 4.14743 12.6763L0.354432 8.77365C-0.171356 8.23266 0.123937 7.32385 0.867294 7.19523L6.22982 6.26738C6.51649 6.21778 6.76393 6.038 6.89969 5.78069L9.43924 0.967345Z"
+                                    fill="#FFDE31" />
+                            </svg>
+                            <svg width="18" height="18" viewBox="0 0 21 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.43924 0.967345C9.79127 0.300116 10.7469 0.300117 11.0989 0.967346L13.6384 5.78069C13.7742 6.038 14.0216 6.21778 14.3083 6.26738L19.6708 7.19523C20.4142 7.32385 20.7095 8.23266 20.1837 8.77365L16.3907 12.6763C16.1879 12.8849 16.0934 13.1758 16.1348 13.4638L16.9095 18.8506C17.0169 19.5973 16.2438 20.159 15.5668 19.8261L10.6831 17.4247C10.422 17.2964 10.1161 17.2964 9.85507 17.4247L4.97131 19.8261C4.29432 20.159 3.52124 19.5973 3.62862 18.8506L4.4033 13.4638C4.44471 13.1758 4.35019 12.8849 4.14743 12.6763L0.354432 8.77365C-0.171356 8.23266 0.123937 7.32385 0.867294 7.19523L6.22982 6.26738C6.51649 6.21778 6.76393 6.038 6.89969 5.78069L9.43924 0.967345Z"
+                                    fill="#FFDE31" />
+                            </svg>
+                            <svg width="18" height="18" viewBox="0 0 21 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.43924 0.967345C9.79127 0.300116 10.7469 0.300117 11.0989 0.967346L13.6384 5.78069C13.7742 6.038 14.0216 6.21778 14.3083 6.26738L19.6708 7.19523C20.4142 7.32385 20.7095 8.23266 20.1837 8.77365L16.3907 12.6763C16.1879 12.8849 16.0934 13.1758 16.1348 13.4638L16.9095 18.8506C17.0169 19.5973 16.2438 20.159 15.5668 19.8261L10.6831 17.4247C10.422 17.2964 10.1161 17.2964 9.85507 17.4247L4.97131 19.8261C4.29432 20.159 3.52124 19.5973 3.62862 18.8506L4.4033 13.4638C4.44471 13.1758 4.35019 12.8849 4.14743 12.6763L0.354432 8.77365C-0.171356 8.23266 0.123937 7.32385 0.867294 7.19523L6.22982 6.26738C6.51649 6.21778 6.76393 6.038 6.89969 5.78069L9.43924 0.967345Z"
+                                    fill="#FFDE31" />
+                            </svg>
+                            <svg width="18" height="18" viewBox="0 0 21 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M9.43924 0.967345C9.79127 0.300116 10.7469 0.300117 11.0989 0.967346L13.6384 5.78069C13.7742 6.038 14.0216 6.21778 14.3083 6.26738L19.6708 7.19523C20.4142 7.32385 20.7095 8.23266 20.1837 8.77365L16.3907 12.6763C16.1879 12.8849 16.0934 13.1758 16.1348 13.4638L16.9095 18.8506C17.0169 19.5973 16.2438 20.159 15.5668 19.8261L10.6831 17.4247C10.422 17.2964 10.1161 17.2964 9.85507 17.4247L4.97131 19.8261C4.29432 20.159 3.52124 19.5973 3.62862 18.8506L4.4033 13.4638C4.44471 13.1758 4.35019 12.8849 4.14743 12.6763L0.354432 8.77365C-0.171356 8.23266 0.123937 7.32385 0.867294 7.19523L6.22982 6.26738C6.51649 6.21778 6.76393 6.038 6.89969 5.78069L9.43924 0.967345Z"
+                                    fill="#FFDE31" />
+                            </svg>
+                           
+                        </h6>
+                        <span class="reviews"><span style="color:black;">5.0</span> 200+reviews</span>
+                        <p>
+                            <button class="btn btn-primary"
+                                style="border:transparent;background-color:rgba(234, 234, 234, 1);font-weight:bold;color:rgba(1, 41, 78, 1);font-size:14px;margin-right:5px;">2
+                                Adults</button>
+                            <button class="btn btn-primary"
+                                style="border:transparent;background-color:rgba(234, 234, 234, 1);font-weight:bold;color:rgba(1, 41, 78, 1);font-size:14px;">2
+                                Children</button>
+                        </p>
+                        <hr style="width:77%;">
+                        <span style="font-size:14px;">Lorem ipsum dolor sit amet, <br>consectetur adipiscing
+                            eli</span>
+                        <div class="mt-4">
+                            <a class="btn homebtn btn-primary" href="index.html" role="button"
+                                style="font-weight:bold;width:78%;font-size:12px">ADD TO BOOKING</a>
+
+
+
+                        </div>
+                        <div style="margin-top:15px;">
+                            <a href="room-description.html" class="btn homebtn btn-primary"
+                                style="background-color:transparent;color:rgba(37, 132, 220, 1);font-weight:bold;width:78%;font-size:12px;">VIEW
+                                DETAILS</a>
+                        </div>
+                    </div>
+
+
+
+
+                    <div class="col-12 col-md-7 col-lg-8 stand">
+
+                        <p class="stdr">Standard Room</p>
+                        <p style="color:rgba(97, 97, 97, 1);font-size:14px;margin-top:7px;">Lorem ipsum dolor sit amet,
+                            consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                            cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt
+                            in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div>
+                            <div class="d-flex justify-content-between">
+                                <div class="images">
+                                    <img style="width:28px;" src=".\images\4.png">
+                                    <span style="font-size:13px;">1 BED(S)</span>
+                                </div>
+                                <div class="images">
+                                    <img style="width:28px;" src=".\images\5.png">
+                                    <span style="font-size:13px;">1 BATHROOM(S) </span>
+                                </div>
+                                <div class="images">
+                                    <img style="width:28px;" src=".\images\6.png">
+                                    <span style="font-size:13px;"> WI-FI</span>
+                                </div>
+                            </div>
+                            <p class="amount">N 25,000
+                                per night</p>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div style="background-color:rgba(236, 236, 236, 1);;height:50px;width:30px;"></div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>WOSAM ARENA
+                </h3>
+                <p>119, Awolowo Road, Ago <br>Iwoye, Lagos State.</p>
+                <p>+2349166420009</p>
+                <p style="color:rgba(37, 132, 220, 1);">info@wosamarena.com</p>
+
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="faqs.html">FAQs</a></li>
+                    <li><a href="rooms.html">Rooms</a></li>
+                    <li><a href="bookinglist.html">Booking List</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Subscribe to Newsletter</h3>
+                <div class="subscribe">
+                    <input type="email" placeholder="">
+                    <button style="font-size:16px; width:35%;">Submit</button>
+                </div>
+                <div class="justify-content-between">
+                    <a href="#"><img src=".\images\ms (1).png" style="width:30px;"></a>
+                    <a href="#"><img src=".\images\ms (2).png" style="width:30px;margin-left:10px;"></a>
+                    <a href="#"><img src=".\images\ms (3).png" style="width:30px;margin-left:10px;"></a>
+                </div>
+            </div>
+        </div>
+
+        <hr class="footer-line">
+
+
+
+        <span class="footer-text">(c) 2023, <span style="color:rgba(37, 132, 220, 1);">Valinno Systems</span>. All
+            Rights Reserved.</span>
+
+
+    </footer>
+
+
+
+
+
+
+    <script src="script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+    <!-- Add Font Awesome for icons -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,723 @@
+/* styling for the main body */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: inter;
+}
+
+/* Style the navigation bar */
+.navbar {
+  background-color: white;
+  display: flex;
+
+  align-items: center;
+}
+
+/* Style the logo image */
+.logo img {
+  width: auto; /* Set your desired width for the logo image */
+  height: 65px;
+  margin-left: 40px;
+}
+
+/* Style the menu icon (hamburger) */
+.menu-icon {
+  display: none; /* Hide the menu icon by default on larger screens */
+  cursor: pointer;
+}
+
+.menu-icon .bar {
+  width: 30px;
+  height: 3px;
+  background-color: #333; /* Color of the hamburger bars */
+  margin: 4px 0;
+}
+
+/* Style the navigation links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0px !important;
+}
+
+.nav-links li {
+  margin-right: 45px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333; /* Color of the navigation links */
+  font-weight: semi-bold;
+}
+/* ending of the navbar styling */
+
+/* beginning of the card */
+.banner {
+  margin-top: 80px;
+  background: url("Rectangle 1.png");
+  height: 500px;
+  background-size: cover;
+}
+.navbar .logo {
+  height: 65px;
+}
+.banner1 {
+  margin-top: 80px;
+  background: url("Rectangle 1.png");
+  height: 420px;
+  background-size: cover;
+}
+.card-title2 {
+  font-weight: bold;
+  font-size: 38px;
+  margin-top: 115px;
+}
+.book {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  
+}
+.card-text2 {
+  font-weight: bolder;
+  font-size: 50px;
+  color: white;
+  margin: 6px 0px !important;
+}
+.small {
+  font-size: 18px !important;
+
+  color: white;
+}
+.small1 {
+  font-size: 18px !important;
+
+  color: white;
+}
+.card-title1 {
+  font-weight: bold;
+  font-size: 38px;
+  margin-top: 115px;
+}
+.card-text1 {
+  font-weight: bolder;
+  font-size: 50px;
+  color: white;
+  margin: 6px 0px !important;
+}
+.images {
+  display: inline-block;
+}
+.span {
+  display: inline-block;
+}
+/* ending of the styling of card and navbar */
+
+/* beginning of the styling of the footer*/
+/* Style the footer */
+footer {
+  background-color: #333; /* Background color of the footer */
+  color: white; /* Text color in the footer */
+  text-align: center;
+  padding: 17px;
+}
+
+/* Style the footer content */
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px; /* Set a maximum width for the footer content */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+/* Style individual footer columns */
+.footer-column {
+  flex-basis: 30%; /* Adjust the width of each column as needed */
+  text-align: left;
+  margin-right: 20px;
+}
+
+/* Additional styles you can apply to the footer columns */
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+/* styling of the paragraph tag used in the footer */
+.footer-column p {
+  font-size: 14px;
+}
+/* styling of the unordered list tag used in the footer */
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 4px;
+}
+
+.footer-column ul li a {
+  color: white; /* Link color in the footer */
+  text-decoration: none;
+}
+/* ending of the styling of the unordered list tag used in the footer */
+
+/* Style the subscribe input and button */
+.subscribe {
+  display: inline-block;
+
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.subscribe input[type="email"] {
+  width: 65%;
+  padding: 5px;
+  border-radius: 5px 0px 0px 5px;
+  height: 40px;
+  border: none !important;
+}
+.subscribe button {
+  border-radius: 0px 5px 5px 0px;
+  height: 40px;
+}
+.subscribe button {
+  background-color: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  padding: 6px 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 10px;
+}
+
+.subscribe button:hover {
+  background-color: #0056b3; /* Hover background color */
+}
+/* ending of the styling of the subscribe button used in the footer */
+
+/* Style the social media icons */
+.social-media-icons {
+  display: flex;
+
+  margin-top: 10px;
+}
+
+.social-media-icons a {
+  text-decoration: none;
+}
+.footer-line {
+  border: 1px solid rgba(217, 217, 217, 1); /* White line */
+  margin: 10px 0; /* Adjust margin as needed */
+}
+.row-line {
+  color: rgba(217, 217, 217, 1); /* White line */
+  margin: 20px 0; /* Adjust margin as needed */
+}
+
+/* Style the footer text */
+.footer-text {
+  font-size: 14px;
+}
+
+/*ending of footer */
+.thing {
+  margin: 0px 0px 10px !important;
+}
+/*this is for the images in the entire website,i got it all one class */
+.img-fluid {
+  padding: 20px;
+  height: auto;
+  object-fit: contain;
+  width: 100%;
+}
+
+/* stling for the images in room description */
+.img-fluids {
+  padding: 20px;
+  height: auto;
+  object-fit: contain;
+  width: 70%;
+}
+
+/* styling of img in the booking list */
+.bookingimg {
+  border-radius: 10px;
+  height: 60%;
+  margin-bottom: 10px;
+}
+.img-carousel-item {
+  width: 55%;
+  border-radius: 3%;
+}
+/* Custom CSS for styling the star rating */
+.rating {
+  display: inline-block;
+}
+
+.rating input {
+  display: none;
+}
+.review {
+  font-size: 12px;
+  color: rgba(1, 41, 78, 1);
+  font-weight: bold;
+}
+.review1 {
+  font-size: 14px;
+  color: rgba(97, 97, 97, 1);
+}
+/* star styling */
+.rating label {
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  margin: 0;
+  padding: 0;
+  float: right;
+  background: url("..\testing\images\Star 3.png");
+}
+.rating label:before {
+  content: "";
+  font-size: 25px;
+}
+
+.rating input:checked ~ label {
+  background: url("Star\ 3.png") no-repeat;
+}
+
+.rating:hover input:checked ~ label {
+  background: url("Star\ 3.png") no-repeat;
+}
+/* ending of the star styling*/
+
+/* styling of the structure of a typical container contaning divc */
+.pontainer {
+  transform: translateY(-50%);
+  height: 50%;
+  overflow: visible;
+}
+.count {
+  transform: translateX(-8px);
+  height: 20px;
+  width: 20px;
+  background-color: red;
+}
+.box1 {
+  grid-template-columns: 1 / span 3;
+}
+.box1,
+.box2 {
+  padding: 0px 10px 0px 10px !important;
+}
+
+/* homepage filter vertical line styling */
+.vline {
+  border-right: 1px solid #616161;
+  height: 20px;
+}
+
+.formdiv {
+  width: 70%;
+  background-color: rgba(68, 76, 82, 1);
+  margin-left: 15%;
+  border-radius: 10px;
+}
+
+.osuite {
+  font-size: 40px;
+  font-weight: bold;
+}
+.aboutslide {
+  padding: 20px;
+}
+.osuitediv {
+  height: 50%;
+}
+/* mobile screen styling */
+.remove-section {
+  width: 65%;
+}
+.button{
+  margin-top:60px;
+}
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+  .aboutslide {
+    padding: 10px;
+  }
+  .img-carousel-item {
+    width: 90%;
+    border-radius: 3%;
+  }
+  .osuite {
+    font-size: 20px;
+  }
+  .bookingimg {
+    margin-top: 20px;
+
+    border-radius: 10px;
+    height: 36%;
+  }
+  .button{
+    margin-top:60px;
+  }
+  .osuitediv {
+    margin-top: 50px;
+  }
+  .homebtn {
+    font-size: 13px !important;
+    font-weight: bold;
+  }
+
+  .banner {
+    margin-top: 70px;
+    background: url("banner.png");
+    height: 280px;
+  }
+  .grow {
+    --bs-gutter-x: 0px !important;
+    padding: 0px 0px !important;
+    margin-left: 0px !important;
+  }
+  .banner1 {
+    margin-top: 70px;
+    background: url("Rectangle 1.png");
+    height: 250px;
+    background-size: cover;
+  }
+  .card-title1 {
+    font-weight: lighter;
+    font-size: 19px;
+    line-height: 10px;
+  }
+  .card-text1 {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-top: 100px;
+  }
+  .card-title2 {
+    font-weight: lighter;
+    font-size: 19px;
+    margin-top: 30px;
+  }
+  .card-text2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+  }
+  .small1 {
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 10px;
+  }
+  .small {
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 8px;
+  }
+  .card-img {
+    margin-top: 80px;
+    background: url("banner.png");
+  }
+
+  .menu-icon {
+    display: block; /* Show the menu icon on smaller screens */
+  }
+
+  .nav-links {
+    display: none; /* Hide the navigation links by default on smaller screens */
+    flex-direction: column;
+    position: absolute;
+    top: 80px; /* Adjust the top position as needed */
+    left: 20px; /* Adjust the left position as needed */
+    background-color: white;
+
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .nav-links.show {
+    display: flex;
+    width: 100%;
+    height: auto; /* Show the navigation links when the menu icon is clicked */
+  }
+
+  .footer-content {
+    flex-direction: column; /* Stack columns on top of each other */
+  }
+
+  .footer-column {
+    flex-basis: 100%; /* Full width for columns on small screens */
+    margin-bottom: 20px; /* Add space between columns */
+  }
+  .footer-text {
+    font-size: 14px;
+
+    text-align: center;
+  }
+  .image {
+    width: 5%;
+  }
+  .f-container {
+    height: 50%;
+    padding: 0;
+  }
+  .pontainer {
+    height: 110px;
+    transform: translateY(-110px);
+    margin-bottom: 20px;
+  }
+  .thing {
+    display: block;
+    margin: 0px 0px 0px !important;
+    height: 100%;
+  }
+  .top{
+    margin-top:12px;
+   }
+  .box2 {
+    margin-top: 30px;
+  }
+  .rtext {
+    font-size: 2.1vw;
+    margin-bottom: 5px;
+  }
+  .formdiv {
+    width: 95%;
+    background-color: rgba(68, 76, 82, 1);
+    margin-left: 2.5%;
+    border-radius: 10px;
+  }
+  .remove-section {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 502px) {
+  .rtext {
+    font-size: 3.2vw;
+  }
+}
+
+@media screen and (max-width: 452px) {
+  .rtext {
+    font-size: 4vw;
+  }
+}
+
+@media screen and (max-width: 862px) {
+  .nav-links li {
+    margin-right: 30px;
+    padding: 20px;
+    font-size: 20px;
+  }
+}
+.subscribe {
+  display: flex !important;
+  max-width: 300px;
+}
+
+/* tablet view*/
+@media screen and (max-width: 992px) {
+  .aboutslide {
+    padding: 10px;
+  }
+  .book {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom:30px;
+   
+  }
+  .box2 {
+    margin-top: 30px;
+    margin-bottom:30px;
+  }
+  .img-carousel-item {
+    width: 90%;
+    border-radius: 3%;
+  }
+  .osuite {
+    font-size: 20px;
+  }
+  .bookingimg {
+    margin-top: 20px;
+
+    border-radius: 10px;
+    height: 49%;
+  }
+  .osuitediv {
+    margin-top: 50px;
+  }
+  .homebtn {
+    font-size: 13px !important;
+    font-weight: bold;
+  }
+
+  .banner {
+    margin-top: 70px;
+    background: url("banner.png");
+    height: 280px;
+  }
+  .grow {
+    --bs-gutter-x: 0px !important;
+    padding: 0px 0px !important;
+    margin-left: 0px !important;
+  }
+  .banner1 {
+    margin-top: 70px;
+    background: url("Rectangle 1.png");
+    height: 250px;
+    background-size: cover;
+  }
+  .card-title1 {
+    font-weight: lighter;
+    font-size: 19px;
+    line-height: 10px;
+  }
+  .card-text1 {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    margin-top: 100px;
+  }
+  .card-title2 {
+    font-weight: lighter;
+    font-size: 19px;
+    margin-top: 30px;
+  }
+  .card-text2 {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+  }
+  .small1 {
+    font-size: 15px;
+    font-weight: lighter;
+    line-height: 10px;
+  }
+  .small {
+    font-size: 14px;
+    font-weight: lighter;
+    line-height: 8px;
+  }
+  .card-img {
+    margin-top: 80px;
+    background: url("banner.png");
+  }
+
+  .menu-icon {
+    display: block; /* Show the menu icon on smaller screens */
+  }
+
+  .nav-links {
+    display: none; /* Hide the navigation links by default on smaller screens */
+    flex-direction: column;
+    position: absolute;
+    top: 80px; /* Adjust the top position as needed */
+    left: 20px; /* Adjust the left position as needed */
+    background-color: white;
+
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .nav-links.show {
+    display: flex;
+    width: 100%;
+    height: auto; /* Show the navigation links when the menu icon is clicked */
+  }
+
+  .footer-content {
+    flex-direction: column; /* Stack columns on top of each other */
+  }
+
+  .footer-column {
+    flex-basis: 100%; /* Full width for columns on small screens */
+    margin-bottom: 20px; /* Add space between columns */
+  }
+  .footer-text {
+    font-size: 14px;
+
+    text-align: center;
+  }
+  .image {
+    width: 5%;
+  }
+  .f-container {
+    height: 50%;
+    padding: 0;
+  }
+  .pontainer {
+    height: 110px;
+    transform: translateY(-110px);
+    margin-bottom: 20px;
+  }
+  .thing {
+    display: block;
+    margin: 0px 0px 0px !important;
+    height: 100%;
+  }
+
+  
+  .rtext {
+    font-size: 2.1vw;
+    margin-bottom: 5px;
+  }
+  .formdiv {
+    width: 95%;
+    background-color: rgba(68, 76, 82, 1);
+    margin-left: 2.5%;
+    border-radius: 10px;
+  }
+  .remove-section {
+    width: 100%;
+  }
+  .imgthumbl {
+    width: calc(25% - 9px);
+    margin-right: 12px;
+  }
+  .imgthumbc1 {
+    width: calc(25% - 9px);
+    margin-right: 6px;
+  }
+  .imgthumbc2 {
+    width: calc(25% - 9px);
+    margin-left: 6px;
+  }
+  .imgthumbr {
+    width: calc(25% - 9px);
+    margin-left: 12px;
+  }
+  .imgmain {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .top{
+    margin-top:12px;
+   }
+}
+@media screen and (min-width: 768px) and (max-width:992px){
+  .standard {
+    margin-top:30px;
+    padding:0px 0px !important;
+   }
+   .stand{
+     margin-top:30px;
+   }
+   .top{
+    margin-bottom:50px;
+   }
+   .homebtn {
+    font-size: 13px !important;
+    font-weight: bold;
+    
+    width:80%;
+  }
+}
